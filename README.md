@@ -27,26 +27,20 @@ Developers using relational databases can view db40 as a complementary tool. The
 
 ## How to run the application
 
-The Application can be started by executing [Server.jar](https://github.com/andryuha77/Asynchronous_RMI_Dictionary_Service/blob/master/Server.jar) and [Client.war](https://github.com/andryuha77/Asynchronous_RMI_Dictionary_Service/blob/master/Client.war) archives.
+The Application can be started by executing [AdvanceOOProject.war](https://github.com/andryuha77/-Measuring_Document_Similarity/blob/master/AdvanceOOProject.war)
 
-1. CD to location containing [Server.jar](https://github.com/andryuha77/Asynchronous_RMI_Dictionary_Service/blob/master/Server.jar) 
-
-2. Execute .jar using:
-```
-java -cp ./Server.jar ie.gmit.sw.DictionaryServiceServer
-```
 [Tom-cat 9](https://tomcat.apache.org/download-90.cgi) was used to run the Dynamic Web App. 
 
-3. Place [Client.war](https://github.com/andryuha77/Asynchronous_RMI_Dictionary_Service/blob/master/Client.war) file in the /webapps folder of [Tom-cat](https://tomcat.apache.org/download-90.cgi) installation location.
+1. Place [AdvanceOOProject.war](https://github.com/andryuha77/-Measuring_Document_Similarity/blob/master/AdvanceOOProject.war) file in the /webapps folder of [Tom-cat](https://tomcat.apache.org/download-90.cgi) installation location.
 ```
 C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps
 ```
-4. Start [Tom-cat](https://tomcat.apache.org/download-90.cgi) by Executing Tomcat9.exe in:
+2. Start [Tom-cat](https://tomcat.apache.org/download-90.cgi) by Executing Tomcat9.exe in:
 ```
 C:\Program Files\Apache Software Foundation\Tomcat 9.0\bin
 ```
-5. Access the application by navigating in your browser to:
+3. Access the application by navigating in your browser to:
 ```
-http://localhost:8080/Client/
+http://localhost:8080/AdvanceOOProject/
 ```
 Alternatively, the application can be launched  in [Eclipse](https://www.eclipse.org/).
